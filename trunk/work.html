@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>My First DA</title>
+<style>
+p{stroke:white;}
+.box1{width:200px;background:#eee;float:left;}
+.box2{width:200px;background:#333;float:left;}
+.inner{width:200px;background:#333;float:left;}
+</style>
+<script type="text/ruby">
+def add_para
+	@stack2.append do
+		para "This is again a generated text", :stroke=>white
+	end
+end
+</script>
+</head>
+<body>
+<div class="box1" id="stack1">
+<button onclick="add_para" id="button1">Button</button>
+</div>
+<div class="box2" id="stack2">
+<p id="para2">Hi there i am in </p>
+</div>
+
+</body>
+</html>
+
