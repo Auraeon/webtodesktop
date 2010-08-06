@@ -1,0 +1,23 @@
+#labels Readme
+=README=
+
+@author : *Pradyumna Dandwate*
+        : don.paddy@gmail.com
+
+1. You need 3 things installed : ruby,shoes,hpricot.
+
+2. write your html file with some style 
+	put that in the same directory as other 
+	files are.
+
+3. In getdata.rb change replace the string 
+	"work.html" to "your_file_name.html".
+
+4.	Run filecreator.rb using "ruby".
+
+5.	created.rb will be created.
+
+6.	Run "created.rb" using shoes.
+
+
+*Note*: for now its just a demo, see if it works.
